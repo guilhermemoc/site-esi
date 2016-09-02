@@ -41,7 +41,7 @@
   <!-- Header -->
   <header id="top" class="header">
 
-    <div class="text-vertical-center">
+    <div class="enter-text text-vertical-center">
       <img src="img/logo-esi.png" class="logo" alt="">
       <h1>ESI</h1>
       <h3>Engenharia de Sistemas Integrados</h3>
@@ -217,9 +217,41 @@
 
   <!-- jQuery -->
   <script src="js/jquery.js"></script>
+  <script src="js/jquery.particleground.js"></script>
 
   <!-- Bootstrap Core JavaScript -->
   <script src="js/bootstrap.min.js"></script>
+
+
+
+<script>
+
+  $('#top').particleground({
+    dotColor: 'rgba(37, 37, 37, 0.35)',
+    lineColor: 'rgba(0, 156, 222, 0.35)'
+  });
+
+</script>
+
+<style>
+.pg-canvas{
+  position: absolute !important;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+
+.enter-text{
+  z-index: 999999;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20%;
+}
+</style>
+
+
+
 
   <!-- Custom Theme JavaScript -->
   <script>
