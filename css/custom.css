@@ -172,3 +172,42 @@
       margin: 10% auto;
     }
   }
+  .recursos{
+    list-style: none;
+    list-style-type: none;
+    text-align: center;
+    margin: 1% auto;
+  }
+  .products-resources{
+    padding: 0
+  }
+
+.contato{
+  margin: 1% auto;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 2%;
+}
+.ilb{
+  display: inline-block !important;
+  margin: 1% 2%
+}
+.container2{
+  width: 100% !important;
+  margin: 0 auto;
+  padding: 0;
+}
+  .pg-canvas{
+    position: absolute !important;
+    left: 0;
+    right: 0;
+    z-index: 9;
+  }
+
+  .enter-text{
+    z-index: 99;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20%;
+  }
