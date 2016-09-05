@@ -163,9 +163,52 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h3>The buttons below are impossible to resist.</h3>
-          <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-          <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+          <h1>Entre em contato:</h1>
+
+          <section class="c-contain">
+            <section class="c-centered">
+              <form>
+                <div class="styled-input">
+                  <input type="text" required />
+                  <label>Seu nome</label>
+                  <span></span>
+                </div>
+
+                <div class="styled-input">
+                  <input type="text" name="Nome" required />
+                  <label>Email</label>
+                  <span></span>
+                </div>
+
+                <div class="styled-input">
+                  <input type="tel" name="Telefone" required />
+                  <label>Telefone</label>
+                  <span></span>
+                </div>
+
+                <div class="styled-input">
+                  <input type="text" name="CNPJ" required />
+                  <label>CNPJ</label>
+                  <span></span>
+                </div>
+
+                <div class="styled-input">
+                  <input type="text" name="Razão Social" required />
+                  <label>Razão Social</label>
+                  <span></span>
+                </div>
+
+                <button id="cadastra" type="submit">Contato</button>
+
+              </form>
+            </section>
+          </section>
+
+
+
+
+
+
         </div>
       </div>
     </div>
@@ -224,31 +267,36 @@
 
 
 
-<script>
+  <script>
 
   $('#top').particleground({
-    dotColor: 'rgba(37, 37, 37, 0.35)',
-    lineColor: 'rgba(0, 156, 222, 0.35)'
+    dotColor: 'rgba(37, 37, 37, 0.45)',
+    lineColor: 'rgba(0, 156, 222, 0.25)',
+    density: 5000,
+    parallax: false,
+    maxSpeedX: 0.1,
+    maxSpeedy: 0.1,
+    directionX: 'center'
   });
 
-</script>
+  </script>
 
-<style>
-.pg-canvas{
-  position: absolute !important;
-  left: 0;
-  right: 0;
-  z-index: 9;
-}
+  <style>
+  .pg-canvas{
+    position: absolute !important;
+    left: 0;
+    right: 0;
+    z-index: 9;
+  }
 
-.enter-text{
-  z-index: 999999;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 20%;
-}
-</style>
+  .enter-text{
+    z-index: 999999;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20%;
+  }
+  </style>
 
 
 
