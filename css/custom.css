@@ -1,3 +1,6 @@
+
+
+
   .logo{
     width: 15%;
   }
@@ -210,4 +213,47 @@
     left: 0;
     right: 0;
     top: 20%;
+    color: #fff;
+  }
+
+
+  .enter-text h3{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.8em;
+    font-weight: 300;
+  }
+
+
+  .btn-entry{
+  padding: 15px 67px;
+  font-size: 30px;
+  border-radius: 4px;
+  background-color: #00aeff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  }
+
+  .presentation-text{
+
+  }
+
+  .resource{
+    padding-left: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    height: 333px;
+  }
+
+  .resource i{
+    font-size: 6em;
+  }
+  .resource h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+  }
+  .resource p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
   }
